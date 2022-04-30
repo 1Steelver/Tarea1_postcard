@@ -1,0 +1,58 @@
+body {
+    background: #171717;
+    font-size: 20px;
+    font-family: 'Handlee',cursive;
+}
+/** {
+    border: 1px dashed red;
+    min-height: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}*/
+.postcard {
+    background-color: white;
+    width: 500px;
+    height: 450px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+
+}
+.postcard-body {
+    overflow: hidden;
+   
+}
+.postcard-header {
+    overflow: hidden;
+}
+.postcard-header img {
+    max-width: 60px;
+    float: right;
+}
+.postcard-header h1 {
+    font-size: 35px;
+    margin: 0;
+}
+.body-left  {
+    float: left;
+    width: 50%;
+}
+.body-right {
+    float: right;
+    width: 50%;
+    display: block;
+    border:none;
+    border-bottom: 1px solid gray;
+    width: 240px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.postcard-footer{
+    
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid gray;
+}
